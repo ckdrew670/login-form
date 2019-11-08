@@ -1,0 +1,59 @@
+header {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif; 
+    
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+}
+
+label {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.input {
+    height: 30px;
+    width: 200px;
+    border-radius: 4px;
+    margin: 10px;
+}
+p {
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+
+}
+
+.success {
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.error {
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.button {
+    background-color: lightcoral;
+    color: white;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 8px;
+    padding: 10px 10px;
+}
+
+.centred {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+}
+
